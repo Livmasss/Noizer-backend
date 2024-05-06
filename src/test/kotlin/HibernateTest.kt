@@ -22,10 +22,11 @@ class HibernateTest {
 
     @Test
     fun testTrackRepository() {
-        val inserted = trackRepository.save(TrackEntity(null, URI.create("https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/%2Bchecked%2B/a/aaa.m3u")))
-        val founded = trackRepository.findById(inserted.id!!)
+        val track = TrackEntity(null, "aaa", "Auth","https://isaac-items.ru/images/parts/repentance/items.png?2", "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/%2Bchecked%2B/a/aaa.m3u")
 
-        assertTrue { founded.isPresent }
-        assertEquals(inserted.trackUri, founded.get().trackUri)
+        trackRepository.save(track)
+        val founded = trackRepository.findAllByTitle(track.title)[0]
+
+        assertEquals(track.title, founded.title)
     }
 }

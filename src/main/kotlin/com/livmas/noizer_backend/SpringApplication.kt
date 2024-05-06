@@ -1,6 +1,5 @@
-package noizer_backend
+package com.livmas.noizer_backend
 
-import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
@@ -9,6 +8,5 @@ class SpringApplication
 
 fun main(args: Array<String>) {
     runApplication<SpringApplication>(*args) {
-        setBannerMode(Banner.Mode.OFF)
     }
 }

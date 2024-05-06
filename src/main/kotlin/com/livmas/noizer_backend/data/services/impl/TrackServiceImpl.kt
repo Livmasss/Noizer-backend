@@ -15,11 +15,14 @@ class TrackServiceImpl @Autowired constructor(
 ) : TrackService {
     override fun getTrackById(id: UUID): TrackEntity {
         val track = repository.findByIdOrNull(id) ?: throw EntityNotFoundException()
-
         return track
     }
 
     override fun createTrack(track: TrackEntity) {
         repository.save(track)
+    }
+
+    override fun getTrackByTitle(title: String): List<TrackEntity> {
+        return repository.findAllByTitle(title)
     }
 }

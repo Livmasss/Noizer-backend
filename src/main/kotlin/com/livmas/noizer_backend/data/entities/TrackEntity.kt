@@ -1,15 +1,22 @@
 package com.livmas.noizer_backend.data.entities
 
 import jakarta.persistence.*
-import java.net.URI
-import java.util.UUID
+import java.util.*
 
 @Entity
 @Table(name = "tracks")
 data class TrackEntity(
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    val id: UUID?,
+    var id: UUID?,
 
-    val trackUri: URI
+    @Column
+    var title: String,
+    @Column
+    var author: String,
+
+    @Column(name = "cover_uri")
+    var coverUri: String,
+    @Column(name = "track_uri")
+    var trackUri: String
 )
