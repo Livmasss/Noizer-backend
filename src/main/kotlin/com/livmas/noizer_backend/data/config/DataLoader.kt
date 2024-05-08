@@ -10,6 +10,6 @@ class DataLoader @Autowired constructor(
     trackRepository: TrackRepository
 ) {
     init {
-        trackRepository.save(TrackEntity(null, "aaa", "MC Chuma", "https://isaac-items.ru/images/parts/repentance/items.png?2", "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/%2Bchecked%2B/a/aaa.m3u"))
+        trackRepository.save(TrackEntity(null, "Люти фоннк", "MC Chuma", "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2Fe4833b496aab74f8f208e91bde50dbd5.1000x1000x1.png", "http://pro13.easy4.team/segments/output.m3u8"))
     }
 }

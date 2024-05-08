@@ -8,10 +8,10 @@ import org.springframework.stereotype.Repository
 import java.util.*
 
 @Repository
-interface TrackRepository: JpaRepository<TrackEntity, UUID> {
-    @Query("SELECT t FROM TrackEntity t WHERE t.title = title")
+interface TrackRepository: JpaRepository<TrackEntity, Long> {
+    @Query("SELECT t FROM TrackEntity t WHERE t.title = :title")
     fun findAllByTitle(@Param("title") title: String): List<TrackEntity>
 
-    @Query("SELECT t FROM TrackEntity t WHERE t.author = author")
+    @Query("SELECT t FROM TrackEntity t WHERE t.author = :author")
     fun findAllByAuthor(@Param("author") author: String): List<TrackEntity>
 }

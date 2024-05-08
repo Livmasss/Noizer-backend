@@ -1,14 +1,13 @@
 package com.livmas.noizer_backend.data.entities
 
 import jakarta.persistence.*
-import java.util.*
 
 @Entity
 @Table(name = "tracks")
 data class TrackEntity(
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    var id: UUID?,
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    var id: Long?,
 
     @Column
     var title: String,
