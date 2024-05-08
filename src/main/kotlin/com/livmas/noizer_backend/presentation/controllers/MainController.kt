@@ -6,12 +6,13 @@ import com.livmas.noizer_backend.domain.usecases.GetTracksFeedUseCase
 import com.livmas.noizer_backend.presentation.models.TracksResponseModel
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 import java.net.URI
-import java.util.*
 
 @RestController
+@RequestMapping(path = [""])
 class MainController @Autowired constructor(
     private val getTrackUriByIdUseCase: GetTrackUriByIdUseCase,
     private val getTracksByTitleUseCase: GetTracksByTitleUseCase,

@@ -12,7 +12,7 @@ class GetTracksByTitleUseCase @Autowired constructor(
 
 )  {
     fun execute(title: String): List<TrackEntity> {
-        val tracks = trackService.getTrackByTitle(title)
+        val tracks = trackService.findTracksByTitle(title)
         if (tracks.isEmpty())
             return tracks
         LoggerFactory.getLogger(GetTracksByTitleUseCase::class.java).info("Tracks founded: ${tracks.size}. First track: ${tracks[0].title}")

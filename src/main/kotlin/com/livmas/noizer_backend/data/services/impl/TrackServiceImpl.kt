@@ -26,6 +26,10 @@ class TrackServiceImpl @Autowired constructor(
         return repository.findAllByTitle(title)
     }
 
+    override fun findTracksByTitle(title: String): List<TrackEntity> {
+        return repository.findByTitleContaining(title.lowercase())
+    }
+
     override fun getFirstTracks(count: Int): List<TrackEntity> {
         return repository.findAll(PageRequest.of(0, count)).toList()
     }
