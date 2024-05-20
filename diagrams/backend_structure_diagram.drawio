@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T15:35:45.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="wBu6o9kPRsxPfhM85Nb8" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T15:35:57.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="7UFZ6YY171bakkq1LlZB" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="kCzSuUrboCWIJ4RZx0Jl">
     <mxGraphModel dx="1354" dy="1017" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PmZiuKjpS1Z25TlZc6ZO-2" value="&lt;h2&gt;SpringBoot application&lt;br&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="-66" width="432" height="399" as="geometry" />
+          <mxGeometry x="-114" y="-66" width="406" height="399" as="geometry" />
         </mxCell>
         <mxCell id="PmZiuKjpS1Z25TlZc6ZO-4" value="SpringConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-89" y="42" width="141" height="75" as="geometry" />
