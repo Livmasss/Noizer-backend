@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T12:38:57.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="_2yLJES5LqbVQF5xg47b" version="24.0.0" type="github">
+  <diagram name="Страница — 1" id="vhNkK5dSm0gLuBWXXrSk">
+    <mxGraphModel dx="961" dy="363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-1" value="Backend application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-2" value="Android application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-138" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="c1Gxy1L6W20uhJFqe7ux-3" target="c1Gxy1L6W20uhJFqe7ux-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-3" value="Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="c1Gxy1L6W20uhJFqe7ux-2" target="c1Gxy1L6W20uhJFqe7ux-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="246" as="sourcePoint" />
+            <mxPoint x="110" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-5" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="c1Gxy1L6W20uhJFqe7ux-4">
+          <mxGeometry x="0.1847" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="c1Gxy1L6W20uhJFqe7ux-1" target="c1Gxy1L6W20uhJFqe7ux-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="182" y="199.71" as="sourcePoint" />
+            <mxPoint x="262" y="199.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1Gxy1L6W20uhJFqe7ux-7" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="c1Gxy1L6W20uhJFqe7ux-6">
+          <mxGeometry x="0.1847" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
