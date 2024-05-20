@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T15:29:27.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="j3fxa_CH6Cw98fPmSHiU" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T15:35:45.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="wBu6o9kPRsxPfhM85Nb8" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="kCzSuUrboCWIJ4RZx0Jl">
     <mxGraphModel dx="1354" dy="1017" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="PmZiuKjpS1Z25TlZc6ZO-20" value="&lt;div&gt;DTOs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-89" y="153" width="141" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="PmZiuKjpS1Z25TlZc6ZO-21" value="DataBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PmZiuKjpS1Z25TlZc6ZO-21" value="PostrgreSQL DataBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="336" y="-22" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PmZiuKjpS1Z25TlZc6ZO-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PmZiuKjpS1Z25TlZc6ZO-14" target="PmZiuKjpS1Z25TlZc6ZO-21">
@@ -50,6 +50,9 @@
         </mxCell>
         <mxCell id="PmZiuKjpS1Z25TlZc6ZO-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PmZiuKjpS1Z25TlZc6ZO-25" target="PmZiuKjpS1Z25TlZc6ZO-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmZiuKjpS1Z25TlZc6ZO-29" value="Gradle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-288" y="103.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
