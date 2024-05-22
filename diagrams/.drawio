@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T10:31:40.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="KhW3vpbyb622oPi-LM6i" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T10:33:20.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="68VLqNOj0faqenaP7XWT" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="pdOZdxwdt70tDH0--Hyy">
-    <mxGraphModel dx="1763" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1522" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,18 +289,18 @@
           <mxGeometry x="433" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gx3o-NQ9ANbg5HNAcx9x-78" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="575" y="630" width="160" height="100" as="geometry" />
+          <mxGeometry x="575" y="640" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gx3o-NQ9ANbg5HNAcx9x-74" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="gx3o-NQ9ANbg5HNAcx9x-78">
-          <mxGeometry width="160" height="100" as="geometry" />
+        <mxCell id="gx3o-NQ9ANbg5HNAcx9x-74" value="Models" style="rounded=1;whiteSpace=wrap;html=1;container=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="gx3o-NQ9ANbg5HNAcx9x-78">
+          <mxGeometry width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gx3o-NQ9ANbg5HNAcx9x-77" value="&lt;div&gt;TrackModel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="gx3o-NQ9ANbg5HNAcx9x-78">
-          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="18" width="120" height="54" as="geometry" />
         </mxCell>
         <mxCell id="gx3o-NQ9ANbg5HNAcx9x-80" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="580" y="740" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="gx3o-NQ9ANbg5HNAcx9x-65" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="gx3o-NQ9ANbg5HNAcx9x-80">
+        <mxCell id="gx3o-NQ9ANbg5HNAcx9x-65" value="Mappers" style="rounded=1;whiteSpace=wrap;html=1;container=0;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;horizontal=1;" vertex="1" parent="gx3o-NQ9ANbg5HNAcx9x-80">
           <mxGeometry width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="gx3o-NQ9ANbg5HNAcx9x-66" value="&lt;div&gt;Track&lt;/div&gt;&lt;div&gt;ModelMapper&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="gx3o-NQ9ANbg5HNAcx9x-80">
